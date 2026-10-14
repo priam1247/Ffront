@@ -14,7 +14,7 @@ Then open `http://localhost:4173`.
 
 ## Pages
 
-- `index.html` — landing page plus sign-in, account creation, and password-reset flows
+- `index.html` — focused sign-in page with account creation, email-verification messaging, and password reset
 - `home.html` — signed-in dashboard and download allowance
 - `past-papers.html` — searchable, filterable exam-paper library
 - `marking-keys.html` — matching answer / marking keys

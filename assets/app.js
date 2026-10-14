@@ -105,6 +105,7 @@
       dialog.querySelector('[data-auth-copy]').textContent = isReset ? 'Enter your email and we’ll send a reset link.' : (isRegister ? 'No fees, no fuss. Start finding study resources.' : 'Sign in to continue where you left off.');
       dialog.querySelector('[data-name-field]').classList.toggle('hidden', !isRegister);
       dialog.querySelector('[data-password-field]').classList.toggle('hidden', isReset);
+      dialog.querySelector('#auth-password').required = !isReset;
       dialog.querySelector('[data-remember]').classList.toggle('hidden', isReset);
       dialog.querySelector('[data-forgot]').classList.toggle('hidden', isReset);
       dialog.querySelector('[data-terms]').classList.toggle('hidden', !isRegister);
